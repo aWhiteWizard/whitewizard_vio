@@ -18,9 +18,7 @@ using namespace Eigen;
 
 const int nDelayTimes = 2;
 string sData_path = "/home/whitewizard/4_dataset/MH_05_difficult/mav0/";
-// string sData_path = "/home/whitewizard/1_workspace/course2_hw_new/vio_data_simulation/bin";
 string sConfig_path = "../config/";
-// string sConfig_path = "/home/whitewizard/1_workspace/course2_hw_new/vio_data_simulation/bin";
 
 std::shared_ptr<System> pSystem;
 
