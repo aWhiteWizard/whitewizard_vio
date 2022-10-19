@@ -8,8 +8,11 @@ a simple vio system for practice
 //  下载与编译
 
   git clone https://github.com/aWhiteWizard/whitewizard_vio.git 
+  
   mkdir build && cd build
+  
   cmake ..
+  
   make
   
 //  运行方法
@@ -17,9 +20,11 @@ a simple vio system for practice
   这套代码作为个人练习成果，没有做优化，只是实现了功能，崩溃很多，一次起不起来多启动几次，总会有一次成功的
   
   cd whitewizard_vio/build
+  
   ./test_euroc euroc数据集路径 ../config/
  
   example:
+  
   ./test_euroc /home/whitewizard/4_dataset/MH_05_difficult/mav0/ ../config/
 
 
